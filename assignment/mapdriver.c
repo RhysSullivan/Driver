@@ -1,7 +1,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <linux/fs.h>      // for char dev related functions
-#include <linux/uaccess.h> // for put_user()
+#include <linux/fs.h>    // for char dev related functions
+#include <asm/uaccess.h> // for put_user()
 
 int init_module(void);
 void cleanup_module(void);
